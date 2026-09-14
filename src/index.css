@@ -1,1 +1,14 @@
-html{scroll-behavior:smooth}body{margin:0}*{box-sizing:border-box}button,input,select,textarea{font:inherit}::selection{background:#dfe8d9;color:#243128}
+@import "tailwindcss";
+
+@theme {
+	--font-serif: Georgia, 'Times New Roman', serif;
+	--color-cream: #f6f4ed;
+	--color-sage: #71846f;
+	--color-stone: #69736c;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; overflow-x: hidden; }
+* { box-sizing: border-box; }
+button, input, select, textarea { font: inherit; }
+::selection { background: #dfe8d9; color: #243128; }
